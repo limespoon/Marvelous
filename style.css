@@ -5,14 +5,17 @@ body{
 .container-fluid{
   /*background-color: black;*/
 }
+
+
 .page-header{
+  color: white;
   position: absolute;
   z-index: 2;
   width: 96%
 }
-h1{
-  color: black;
-  font-family:Carolina Trebol;
+ .h1 {
+  color: red;
+  font-family:Crimefighter BB;
   padding:100px;
   margin-right: 150px;
 }
@@ -22,6 +25,13 @@ h1{
 .pow{
   height:60px;
 }
+
+
+
+.dropdown-menu>li>a {
+  color:red;
+}
+
 
 .fullscreen-carousel{
   position:absolute;
@@ -43,17 +53,20 @@ h1{
   .navbar-nav{
     width:100%;
   }
-a{
+  
+  .movies-nav{
+    padding-bottom:9px;
+    margin:40px 0 20px;
+  }
+  
+  
+  a,.dropdown-toggle { 
   color: red;
-  font-family:Carolina Trebol;
-  font-size:25px;
+  font-family: lobster;
+  font-size:26px;
 }
   
   
- .thumbnail{
-   max-height:480px;
-   max-width:;
-   } 
   
   .site-footer{
     text-align: center;
@@ -61,33 +74,29 @@ a{
     position: relative;
     margin: 0;
     max-width: 767px;
-     display: block;
-  }
-  
-.thumbnail2{
-  
-  max-height:755px;
+ 
   
 }
 
 .col-md-7 > li{
-  float:left;
+  /*float:left;*/
   padding-right:20px;
+  display: inline-block;
 }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+div.transbox {
+  margin: 30px;
+  background-color: black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  margin-top: 165px;
+  height:650px;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
